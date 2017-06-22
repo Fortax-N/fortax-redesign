@@ -23,6 +23,8 @@ h1, h2 {
 
 img { max-width: 100%; }
 
+
+
 ::-moz-selection { background: #1b93c7; color: #fff; text-shadow: none; }
 ::selection { background: #1b93c7; color: #fff; text-shadow: none; }
 
@@ -672,4 +674,8 @@ footer {
 .button-2 .button-2-right .button-2-right-bottom {
    font-size: 34px;
    line-height: 34px;
+}
+
+.color-yellow{
+   color: #DAA520;
 }

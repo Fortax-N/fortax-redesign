@@ -11,22 +11,22 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
 	.section-description p { padding: 0; }
-	
+
 	.features-center { padding-top: 120px; }
-	
+
 	.how-it-works-phone img { margin-bottom: 0; }
 	.how-it-works-description { margin-top: 30px; }
 	.how-it-works-description-left { padding-left: 50px; padding-right: 40px; }
-	
+
 	.screenshot-box img { max-width: 100%; }
-	
-	.faq-box-right span { font-size: 440px; -ms-transform: rotate(0deg); -moz-transform: rotate(0deg); 
+
+	.faq-box-right span { font-size: 440px; -ms-transform: rotate(0deg); -moz-transform: rotate(0deg);
 							-webkit-transform: rotate(0deg); transform: rotate(0deg); }
 
 }
 
 @media (max-width: 767px) {
-	
+
 	.navbar>.container .navbar-brand { margin-left: 15px; }
 	.navbar-collapse { border: 0; }
 	.navbar-toggle { margin-top: 13px; }
@@ -35,44 +35,44 @@
 	.navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header { padding: 15px; }
 	.navbar-fixed-top { position: static; top: auto; left: auto; right: auto; }
 	.navbar-fixed-top .navbar-collapse { max-height: none; }
-	
+
 	.section-description p { padding: 0; }
-    
+
     .inner-bg { padding-top: 60px; }
-    
+
     .how-it-works-container { padding-bottom: 60px; }
     .how-it-works-phone { padding-bottom: 20px; }
     .how-it-works-phone img { margin-bottom: 0; }
     .how-it-works-description { margin-top: 30px; text-align: center; }
 	.how-it-works-description-left { padding-left: 15px; padding-right: 15px; }
 	.how-it-works-description p { margin-bottom: 30px; }
-	
+
 	.screenshot-box-left, .screenshot-box-right { text-align: center; }
 	.screenshot-box img { max-width: 100%; }
-	
+
 	.faq-box-right { display: none; }
-	
+
 	.subscribe form input.subscribe-email, .subscribe form button { width: 95%; }
 	.subscribe form input.subscribe-email { margin-left: auto; margin-right: auto; }
-	
+
 	.contact-form, .contact-address { text-align: center; }
 	.contact-form form input, .contact-form form textarea { margin-left: auto; margin-right: auto; }
-	
+
 	footer, .footer-copyright { text-align: center; }
 	.footer-copyright { padding-bottom: 15px; }
 
 }
 
 @media (max-width: 499px) {
-	
+
 	.top-content .top-button .button-1, .call-to-action-button .button-1 { margin: 0 10px 10px 10px; }
-	
+
 }
 
 @media (max-width: 290px) {
-	
+
 	.top-content .top-button .button-1, .call-to-action-button .button-1 { margin: 0 0 10px 0; }
-	
+
 }
 
 
@@ -85,10 +85,13 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
-	
+
 	/* logo */
     .navbar-brand {
     	background-image: url(../img/logo@2x.png) !important; background-repeat: no-repeat !important; background-size: 84px 36px !important;
     }
-	
+
+}
+.navbar-toggle .icon-bar{
+   background: #000;
 }
