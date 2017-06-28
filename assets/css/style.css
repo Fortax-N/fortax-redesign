@@ -679,3 +679,9 @@ footer {
 .color-yellow{
    color: #DAA520;
 }
+
+#map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
